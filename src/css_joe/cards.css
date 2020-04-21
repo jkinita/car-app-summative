@@ -1,0 +1,22 @@
+.car-container {
+  background-color: #fffffc;
+  width: 32.3rem;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.car-container img {
+    width: 40%;
+    margin-left: 0.6rem;
+}
+
+.details {
+    font-size: 1.2rem;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+

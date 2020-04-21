@@ -1,0 +1,21 @@
+.splash-e {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.splash-e h1 {
+  font-size: 3.5rem;
+}
+
+.splash-e h2 {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.logo-container-e {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 65%;
+}

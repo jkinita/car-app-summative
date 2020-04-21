@@ -1,0 +1,104 @@
+.choose-file-label {
+  color: #fffffc;
+}
+
+.main-content-t .form-container-t {
+  border: none;
+  background-color: #1d1f2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+.form-container-t form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-upload-container-t > input {
+  font-size: 1.3rem;
+}
+
+.main-content-t > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content-t .vehicle-details-title {
+  margin-left: 10%;
+}
+
+form > .red-btn-t {
+  margin-top: 3.5rem;
+}
+
+.card-body {
+  background-color: #1d1f2b;
+}
+
+.btn-next-t {
+  width: 30.2rem;
+  border-radius: 1rem;
+  background-color: #d92546;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+}
+
+input#carimage {
+  color: white;
+}
+
+/* input image field styling: */
+.image-upload-container-t {
+  padding: 0rem;
+  padding-top: 1rem;
+}
+
+.caption-and-img-container-t {
+  display: flex;
+}
+
+.image-upload-container-t > label {
+  font-size: 1.5rem;
+  color: gray;
+  /* display: flex; */
+}
+
+.image-upload-container-t .select-image-caption-t {
+  padding-right: 1rem;
+  color: white;
+}
+
+/* image styling */
+.image-for-input-wrapper-t > img {
+  width: 79px;
+  max-width: 100%;
+  margin-right: 1.5rem;
+}
+
+.image-upload-container-t > .hidden-input-t {
+  font-size: 0.5px;
+}
+
+.default-image-wrapper-t > img {
+  width: 40px;
+  max-width: 100%;
+  margin-right: 1.5rem;
+}
+
+form > .year-container-t {
+  padding-left: 8px;
+}
+.year-container-t .dropdown-toggle::after {
+  margin-left: 0 !important;
+  top: 50%;
+  left: 95%;
+  position: absolute;
+}
+
+.year-container-t .dropdown > button {
+  text-align: left;
+}

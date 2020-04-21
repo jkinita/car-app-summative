@@ -1,0 +1,17 @@
+/* ___general styling____ */
+.main-content-t {
+  display: flex;
+
+  flex-direction: column;
+  min-height: 100vh;
+
+  box-sizing: border-box;
+  /* margin-left: 3rem; */
+  width: 100%;
+  display: flex;
+}
+
+.row-t {
+  display: flex;
+  flex-direction: row;
+}

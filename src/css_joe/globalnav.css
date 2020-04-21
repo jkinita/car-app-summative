@@ -1,0 +1,27 @@
+.nav-options {
+  display: flex;
+  background-color: #f8f8f8;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  height: 8.1rem;
+  margin: 0;
+}
+
+.nav-options li * {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  color: #727272;
+  font-size: 0.9rem;
+}
+
+.sticky-list-e li span {
+  margin-top: 0.3rem;
+}
+
+.fixed-container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

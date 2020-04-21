@@ -1,0 +1,23 @@
+/* Joe's code -------------------> */
+
+.text-red {
+    color: #D92546;
+}
+
+.text-white {
+    color: white;
+}
+
+textarea.form-control {
+    border: 2px solid #D92546;
+    background: none;
+    color: white;
+}
+
+textarea.form-control:focus {
+    border: 2px solid #D92546;
+}
+
+.line_bottom {
+    border-bottom: 2px solid #D92546;
+}

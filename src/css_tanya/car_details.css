@@ -1,0 +1,140 @@
+.my-car-details-container-t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-car-image-wrapper-t {
+  margin-bottom: 1rem;
+  background-color: #fffffc;
+  border-radius: 1rem;
+  padding: 0.1rem 1.5rem;
+}
+
+.my-car-image-wrapper-t>img {
+  max-width: 100%;
+  width: 20rem;
+}
+
+.titles-container-t {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.make-big-title-t {
+  padding-right: 0.7rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.car-titles-container-t {
+
+  margin-top: 5%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.model-big-title-t {
+  padding-right: 2rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.price-big-title-t {
+  padding-right: 2rem;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.year-odometer-container-t {
+  margin-top: 5%;
+  margin-bottom: 2rem;
+}
+
+.odometer-conainer-t {
+  padding-right: 7rem;
+}
+
+.year-conainer-t {
+  padding-right: 11rem;
+}
+
+.user-small-image-wrapper-t>img {
+  max-width: 100%;
+  width: 65px;
+  border-radius: 120px;
+}
+
+.user-details-container-horisontal-t {
+  display: flex;
+  flex-direction: row;
+  /* margin-bottom: 4rem; */
+  /* margin-left: 4.5rem; */
+}
+
+.user-details-container-horisontal-t>h1 {
+  font-weight: 600;
+  width: 118px;
+  margin-top: 2.5rem;
+  margin-right: 2.8rem;
+  margin-left: 1.5rem;
+}
+
+.row-t>.edit-btn-bigger {
+  margin-right: 2rem;
+}
+
+.buttons-container-t {
+  display: flex;
+
+  margin-bottom: 1.7rem;
+}
+
+.red-btn-t {
+  width: 30.2rem;
+  border-radius: 1rem;
+  background-color: #d92546;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+}
+
+.edit-btn-big-t {
+  width: 13.8rem;
+  font-size: 1.6rem;
+  background-color: #464b59;
+  border-radius: 1rem;
+  margin-right: 2rem;
+}
+
+.delete-btn-big-t {
+  width: 13.8rem;
+  border-radius: 1rem;
+  background-color: #1d1f2b;
+  border: 1.5px solid #d92546;
+  font-size: 1.3rem;
+  color: #d92546;
+  padding: 0.4rem;
+}
+
+.phone-icon-wrapper-t {
+  color: #d92546;
+  font-size: 2.7rem;
+  margin-top: 1.5rem;
+  padding-right: 1.3rem;
+}
+
+.plane-icon-wrapper-t {
+  color: #d92546;
+  margin-top: 1.7rem;
+  font-size: 2.7rem;
+}
+
+.my-car-details-container-t .showing-comment-container-e {
+  margin-bottom: 2rem;
+  /* margin-left: 3.9rem; */
+}
+
+.comments-container-t {
+  width: 96%;
+}

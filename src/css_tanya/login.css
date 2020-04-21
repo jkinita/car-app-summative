@@ -1,0 +1,49 @@
+.logo-container-t {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fffffc;
+    align-items: center;
+    margin-top: 30%;
+    margin-bottom: 15%;
+}
+
+.logo-container-t>h1 {
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.logo-container-t>span {
+    font-size: 1.1rem;
+    display: flex;
+    padding-left: 10.9rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.container-tt {
+    border: 1px solid pink;
+}
+
+.forgot-password-caption-t {
+    border: none;
+    padding: 0;
+    padding-top: 0.7rem;
+}
+
+.forgot-password-caption-t>span {
+    color: grey;
+    font-size: 1.1rem;
+    white-space: nowrap;
+    margin-top: 1rem;
+
+}
+
+.sign-up-caption-t {
+    color: #fffffc;
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
