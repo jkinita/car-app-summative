@@ -1,13 +1,10 @@
 import React, { Component } from "react";
 import { Button } from "reactstrap";
-import Axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import * as UTILS from "../utils";
 import { navigate } from "@reach/router";
-import "../css/shared.css";
-import "../css_tanya/style.css";
-import "../css_tanya/addcar_form.css";
-import "../css_tanya/login.css";
+import Logo from "../images/tradeauto_logo.png"
+import "../css_joe/login.css"
 
 export default class LoginPage extends Component {
   GotoHomePage = (e) => {
@@ -23,43 +20,43 @@ export default class LoginPage extends Component {
 
   render() {
     return (
-      <div className="main-content-t">
-        <div className="card form-container-t">
-          <div className="logo-container-t">
-            <h1>TradeAuto</h1>
-            <span>Buy&Sell</span>
+      <div className="container d-flex justify-content-center align-items-center vh-100">
+        <div className="container  p-5">
+          <div className="container mb-5">
+            <img src={Logo} />
           </div>
 
-          <div className="card-body   pt-0">
+          <div className="form-group">
             <form onSubmit={this.GotoHomePage}>
-              <div className=" main-redline-input container-t">
+
                 <input
+                className="bg-none w-100 p-3"
                   id="username"
                   type="text"
                   name="username"
                   placeholder="Username"
                 />
-              </div>
 
-              <div className=" main-redline-input md-form">
                 <input
+                className="bg-none w-100 p-3 mt-3"
                   id="password"
                   type="password"
                   name="password"
                   placeholder="Password"
                 />
-              </div>
 
-              <div className=" main-redline-input forgot-password-caption-t">
-                <span> Forgot password ></span>
-              </div>
-
-              <Button className=" sign-in-btn-t red-btn-t" type="submit">
+              <Button className="w-100 mt-5 sign-in-btn" type="submit">
                 Sign in
               </Button>
+
+              <div className="container d-flex justify-content-between p-2 mt-2">
+              <p className="text-white f-pw-su"> Forgot password </p>
+              <p className="text-white f-pw-su">Sign-up</p>
+              </div>
+              
             </form>
 
-            <span className="sign-up-caption-t ">Sign-up</span>
+            
           </div>
         </div>
       </div>

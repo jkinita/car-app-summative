@@ -6,11 +6,12 @@ import "./css/shared.css";
 // Ella's components:
 import Home from "./components_ella/Home";
 import FooterNav from "./components_ella/FooterNav";
-import SplashPage from "./components_ella/SplashPage";
+
 
 // Joe's components:
 import ViewCarDetails from "./components_joe/ViewCarDetails";
-// import FooterNav from "./components_joe/FooterNav";
+import SplashPage from "./components_joe/SplashPage";
+import LoginPage from "./components_joe/LoginPage";
 
 // Tanya's components:
 
@@ -21,7 +22,7 @@ import MyProfile from "./components_tanya/MyProfile";
 import SearchCars from "./components_tanya/SearchCars";
 import FilteredCars from "./components_tanya/FilteredCars";
 import EditedCarDetails from "./components_tanya/EditedCarDetails";
-import LoginPage from "./components_tanya/LoginPage";
+
 import BookTestDrive from "./components_tanya/BookTestDrive";
 import BookingDEtails from "./components_tanya/BookingDetails";
 

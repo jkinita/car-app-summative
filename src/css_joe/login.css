@@ -1,0 +1,17 @@
+.bg-none {
+    background: none !important;
+    border: none;
+    border-bottom: 2px solid #d92546 !important;
+}
+
+.f-pw-su {
+    opacity: 0.3;
+    font-size: 1.25rem;
+}
+
+.sign-in-btn {
+    font-size: 1.4rem !important;
+    height: 4rem;
+    background-color: #d92546 !important;
+    border: none !important;
+}

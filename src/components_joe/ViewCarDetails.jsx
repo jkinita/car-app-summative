@@ -4,10 +4,12 @@ import * as UTILS from "../utils";
 import Axios from "axios";
 import SingleCar from "./SingleCar";
 import Comments from "./Comments";
-import { IoIosArrowBack } from "react-icons/io";
+import { IoIosArrowBack as Back } from "react-icons/io";
 import { Link } from "@reach/router";
 import { navigate } from "@reach/router";
+
 export default class ViewCarDetails extends Component {
+
   constructor(props) {
     super(props);
     this.state = { cars: [] };
@@ -38,16 +40,16 @@ export default class ViewCarDetails extends Component {
 
   render() {
     return (
-      <div className="viewdeatils-container-e">
-        <div className="header-w-arrow">
+      <div className="container">
+        <div className="header-w-arrow justify-content-between">
           <h1>
             <Link to="/all-cars">
-              <IoIosArrowBack color="#d92546" />
+              <Back color="#d92546" />
             </Link>
           </h1>
           <h1>View Details</h1>
           <h1 style={{ visibility: "hidden" }}>
-            <IoIosArrowBack />
+            <Back />
           </h1>
         </div>
         {this.state.cars.map((car, i) => {
@@ -67,6 +69,7 @@ export default class ViewCarDetails extends Component {
             </div>
           );
         })}
+
         <div className="container-fluid d-flex justify-content-center">
           <button onClick={this.gotoBookTestDrive} className="btn-lg btn-danger mb-3 w-100">
           Book a test drive
